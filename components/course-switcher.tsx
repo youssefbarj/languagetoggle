@@ -4,8 +4,8 @@ import { useState, useEffect, useRef } from "react"
 import { Globe, X } from "lucide-react"
 
 export function CourseSwitcher() {
-  const [language, setLanguage] = useState<"en" | "fr">("en")
-  const [isLoading, setIsLoading] = useState<{ en: boolean; fr: boolean }>({ en: true, fr: false })
+  const [language, setLanguage] = useState<"en" | "fr">("fr")
+  const [isLoading, setIsLoading] = useState<{ en: boolean; fr: boolean }>({ en: false, fr: true })
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const [closeTimeout, setCloseTimeout] = useState<NodeJS.Timeout | null>(null)
   const [showResumePrompt, setShowResumePrompt] = useState(false)
