@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-dasharray="188.5 188.5" stroke-dashoffset="47.125" opacity="0.3"/>
+  <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-dasharray="188.5 188.5" stroke-dashoffset="0" class="animate-spin" style="transform-origin: 32px 32px; animation: spin 1s linear infinite;">
+    <animate attributeName="stroke-dashoffset" from="188.5" to="0" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <style>
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</svg>
