@@ -16,8 +16,8 @@ export function CourseSwitcher() {
   const frenchIframeRef = useRef<HTMLIFrameElement>(null)
 
   const courseUrls = {
-    en: "https://coassemble.com/learn/PCM72R",
-    fr: "https://coassemble.com/learn/B54E5A"
+    en: "https://coassemble.com/learn/I1S3EA",
+    fr: "https://coassemble.com/learn/YP477O"
   }
 
   // Auto-detect system language on mount
