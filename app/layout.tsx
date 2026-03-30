@@ -7,7 +7,6 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Course Platform',
   description: 'Interactive language course platform',
-  icons: '/loading-circle.png',
 }
 
 export default function RootLayout({
