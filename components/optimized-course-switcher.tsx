@@ -14,8 +14,8 @@ export function OptimizedCourseSwitcher() {
   const swapTimeoutRef = useRef<NodeJS.Timeout | null>(null)
 
   const courseUrls = {
-    en: "https://coassemble.com/learn/I1S3EA",
-    fr: "https://coassemble.com/learn/YP477O"
+    en: "https://coassemble.com/learn/YP477O",
+    fr: "https://coassemble.com/learn/I1S3EA"
   }
 
   // Create invisible iframes for preloading
